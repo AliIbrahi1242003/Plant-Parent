@@ -1,0 +1,52 @@
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.hover:hover,.h:hover{
+    font-weight:bold ;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+    color: #124838;
+    border: 1px solid #124838;
+    outline: 4px solid #85c7b3 ;
+    outline-offset: 5px;
+}
+.border{
+    border-radius: 40px;
+} 
+
+.about-cart{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-20%);
+}
+.position{
+    top: 0;
+}
+.bg{
+    background-color: rgba(255, 217, 145, .65);   
+}
+.bg:hover{
+    background-color: rgba(245, 247, 245, .65);
+}
+.warp{
+    height: 100%;
+}
